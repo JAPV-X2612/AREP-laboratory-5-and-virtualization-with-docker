@@ -173,7 +173,7 @@ mvn clean package
 java -cp "target/classes:target/dependency/*" edu.eci.arep.app.TcpWebServerApp
 ```
 
-<img src="assets/images/03-server-running-terminal.png" alt="Server Running on Terminal" width="60%">
+<img src="assets/images/03-server-running-terminal.png" alt="Server Running on Terminal" width="70%">
 
 *Server started and listening on port `8080`.*
 
@@ -181,7 +181,7 @@ java -cp "target/classes:target/dependency/*" edu.eci.arep.app.TcpWebServerApp
 
 Navigate to `http://localhost:8080` to access the web UI:
 
-<img src="assets/images/04-browser-index-local.png" alt="Frontend UI Running Locally" width="80%">
+<img src="assets/images/04-browser-index-local.png" alt="Frontend UI Running Locally" width="90%">
 
 *Interactive greeting form served as a static file from `webroot/`.*
 
@@ -249,7 +249,7 @@ docker ps
 
 *`docker-compose` builds and starts all three services (`tcpfirstdockercontainer1/2/3`) in a single command.*
 
-<img src="assets/images/11-docker-compose-dashboard.png" alt="Docker Desktop Dashboard" width="80%">
+<img src="assets/images/11-docker-compose-dashboard.png" alt="Docker Desktop Dashboard" width="90%">
 
 *Docker Desktop showing the three running containers grouped under the Compose stack.*
 
@@ -265,7 +265,7 @@ docker push japv2612/arep-lab5-tcp-web-server:latest
 
 *All image layers pushed successfully to `docker.io/japv2612/arep-lab5-tcp-web-server`.*
 
-<img src="assets/images/13-dockerhub-repository.png" alt="DockerHub Repository" width="80%">
+<img src="assets/images/13-dockerhub-repository.png" alt="DockerHub Repository" width="90%">
 
 *Public repository `japv2612/arep-lab5-tcp-web-server` visible in DockerHub under the `japv2612` namespace.*
 
@@ -284,7 +284,7 @@ docker push japv2612/arep-lab5-tcp-web-server:latest
 
 Create an **Amazon Linux 2023** EC2 instance. The instance used in this laboratory is:
 
-<img src="assets/images/14-ec2-instance-running.png" alt="EC2 Instance Running" width="80%">
+<img src="assets/images/14-ec2-instance-running.png" alt="EC2 Instance Running" width="90%">
 
 *Instance `ec2-lab-5` running at `ec2-54-237-94-229.compute-1.amazonaws.com` (public DNS), state: **Running**.*
 
@@ -292,7 +292,7 @@ Create an **Amazon Linux 2023** EC2 instance. The instance used in this laborato
 
 Open the required ports in the instance's Security Group:
 
-<img src="assets/images/15-security-group-inbound-rules.png" alt="Security Group Inbound Rules" width="80%">
+<img src="assets/images/15-security-group-inbound-rules.png" alt="Security Group Inbound Rules" width="90%">
 
 | Port | Protocol | Purpose |
 |------|----------|---------|
@@ -342,7 +342,7 @@ http://ec2-54-237-94-229.compute-1.amazonaws.com:42000/api/greeting?name=AWS
 http://ec2-54-237-94-229.compute-1.amazonaws.com:42000
 ```
 
-<img src="assets/images/19-browser-index-aws.png" alt="Frontend UI on AWS EC2" width="80%">
+<img src="assets/images/19-browser-index-aws.png" alt="Frontend UI on AWS EC2" width="90%">
 
 *Complete web application fully operational on AWS EC2 — the static frontend communicates with the REST API, all running inside a Docker container.*
 
