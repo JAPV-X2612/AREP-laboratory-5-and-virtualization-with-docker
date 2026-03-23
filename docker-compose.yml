@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  tcpserver1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tcpfirstdockercontainer1
+    ports:
+      - "34000:8080"
+    environment:
+      - PORT=8080
+
+  tcpserver2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tcpfirstdockercontainer2
+    ports:
+      - "34001:8080"
+    environment:
+      - PORT=8080
+
+  tcpserver3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tcpfirstdockercontainer3
+    ports:
+      - "34002:8080"
+    environment:
+      - PORT=8080
