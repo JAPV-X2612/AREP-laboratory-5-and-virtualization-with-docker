@@ -1,7 +1,9 @@
 # 🐳 Virtualization with Docker
 ## Modularization and Containerization of a Concurrent TCP Web Server
 
-<img src="assets/images/19-browser-index-aws.png" alt="Application Running on AWS EC2" width="80%">
+<div align="center">
+  <img src="assets/images/19-browser-index-aws.png" alt="Application Running on AWS EC2">
+</div>
 
 [![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://www.oracle.com/java/)
 [![Maven](https://img.shields.io/badge/Maven-3.9-red.svg)](https://maven.apache.org/)
