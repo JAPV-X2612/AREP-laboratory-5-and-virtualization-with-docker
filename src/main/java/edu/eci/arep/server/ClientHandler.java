@@ -11,9 +11,6 @@ import java.io.OutputStream;
 import java.net.Socket;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
 /**
  * Handles a single client connection in its own thread. Reads the HTTP
